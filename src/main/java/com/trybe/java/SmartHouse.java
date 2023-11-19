@@ -6,26 +6,19 @@ package com.trybe.java;
 public class SmartHouse {
   private boolean lampada = false;
 
-  /**
-   * Ligar lampada.
-   */
   public void ligarLampada() {
-    lampada = true;
+    this.lampada = true;
   }
 
-  /**
-   * Desligar lampada.
-   */
   public void desligarLampada() {
-    lampada = false;
+    this.lampada = false;
   }
 
-  /**
-   * Is lampada ligada boolean.
-   *
-   * @return the boolean
-   */
   public boolean isLampadaLigada() {
-    return lampada;
+    return this.lampada;
+  }
+
+  public boolean conectarInternet(double successRate) {
+    return successRate > 0.5;
   }
 }
