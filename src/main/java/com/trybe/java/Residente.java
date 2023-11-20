@@ -8,10 +8,10 @@ public class Residente {
   /**
    * Atributos da classe.
    */
-  private String nome;
-  private int idade;
-  private double peso;
-  private double altura;
+  public String nome;
+  public int idade;
+  public double peso;
+  public double altura;
 
   /**
    * Método Construtor.
